@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5DC;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; /* White font for body text */
+  }
+  
+  .btn-primary {
+    background-color: #D2691E;
+    border-color: #D2691E;
+    border-radius: 0.5rem;
+    color: white; /* White text on buttons */
+  }
+  
+  .btn-primary:hover {
+    background-color: #8B4513;
+    color: white;
+  }
+  
+  .form-control {
+    border-radius: 0.5rem;
+    color: black; /* Black text for form inputs */
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for cards */
+    color: black; /* Black text for card content */
+  }
+  
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .navbar-brand, .nav-link {
+    color: black !important; /* Black text for navigation */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+  }
